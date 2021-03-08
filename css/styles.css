@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+.nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: #fff solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 1060px) {
+  .nav {
+    width: 80%;
+  }
+}
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+footer .copyright {
+  font-size: 12px;
+  align-self: center;
+  color: #fff;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+@media only screen and (max-width: 1060px) {
+  footer {
+    max-width: 1280px;
+    height: 100px;
+    background-color: #79ADDC;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+  }
+
+  footer .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  footer .copyright {
+    font-size: 12px;
+    align-self: center;
+    color: #fff;
+  }
+
+  footer .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .nav {
+    width: 980px;
+    height: 60px;
+    border-bottom: #fff solid 3px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  .nav .links {
+    width: 400px;
+    height: 42px;
+    font-family: GillSans;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .links div.pipe {
+    color: #79ADDC;
+    font-size: 20px;
+  }
+
+  .nav .links div a {
+    font-family: "GillSans";
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    text-transform: lowercase;
+  }
+}
