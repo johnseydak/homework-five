@@ -60,14 +60,9 @@ p {
 
 @media only screen and (max-width: 1060px) {
   .nav {
-    width: 80%;
-  }
-}
-@media only screen and (max-width: 1060px) {
-  .nav {
-    width: 980px;
+    max-width: 980px;
     height: 60px;
-    border-bottom: #fff solid 3px;
+    border-bottom: black solid 3px;
     margin: 20px auto 0 auto;
     display: flex;
     justify-content: space-between;
@@ -84,7 +79,6 @@ p {
     height: 42px;
     font-family: GillSans;
     align-self: center;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -98,8 +92,8 @@ p {
     font-family: "GillSans";
     font-size: 15px;
     text-decoration: none;
-    color: #fff;
-    margin: auto;
+    color: black;
+    margin: 0 auto;
     text-transform: lowercase;
   }
 }
@@ -112,6 +106,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0px 120px;
+  margin-top: 285px;
+  margin-bottom: 0px;
 }
 footer .logo {
   width: 92px;
@@ -216,7 +212,6 @@ p {
 .about .about-bottom-section .client .client-image {
   width: 260px;
   height: 150px;
-  background-color: red;
 }
 .about .about-bottom-section .client .client-image img {
   height: 100%;
@@ -251,7 +246,7 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
-  color: #79ADDC #79ADDC;
+  color: #79ADDC;
 }
 
 @media only screen and (max-width: 600px) {

@@ -34,11 +34,9 @@
         padding-bottom: 5px;
 
         .about-title{
-
             border-bottom: black solid 3px;
             width: 100px;
             padding-bottom: 20px;
-            
         }
     }
 
@@ -60,7 +58,7 @@
             .client-image{
                 width: 260px;
                 height: 150px;
-                background-color: red;
+                //background-color: red;
 
                 img {
                     height: 100%; 
@@ -100,7 +98,7 @@
                     //text-align: right;
                     right: 0;
                     bottom: 0;
-                    color: $site-blue #79ADDC;
+                    color: #79ADDC;
                 }
             }
         }
