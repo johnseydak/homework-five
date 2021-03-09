@@ -21,7 +21,7 @@ p {
 
 @font-face {
   font-family: GillSans;
-  src: url(fonts/GillSans.ttc);
+  src: url(fonts/GillSans.otf);
 }
 .nav {
   width: 980px;
@@ -112,7 +112,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0px 120px;
-  position: fixed;
 }
 footer .logo {
   width: 92px;
@@ -133,7 +132,7 @@ footer .socialmedia {
 
 @media only screen and (max-width: 1060px) {
   footer {
-    max-width: 1280px;
+    max-width: 100%;
     height: 100px;
     background-color: #79ADDC;
     background-size: cover;
@@ -166,7 +165,7 @@ footer .socialmedia {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans";
 }
 
 html, body {
@@ -193,15 +192,20 @@ p {
 }
 .about .about-top-section {
   margin-top: 100px;
+  padding-bottom: 5px;
 }
-.about .about-top-section .h1 {
+.about .about-top-section .about-title {
   border-bottom: black solid 3px;
+  width: 100px;
+  padding-bottom: 20px;
 }
 .about .about-bottom-section {
   margin-top: 100px;
 }
-.about .about-bottom-section .about-title {
+.about .about-bottom-section h3 {
+  flex-direction: row;
   border-bottom: black solid 3px;
+  width: 80px;
 }
 .about .about-bottom-section .client {
   max-width: 676px;
@@ -214,21 +218,31 @@ p {
   height: 150px;
   background-color: red;
 }
+.about .about-bottom-section .client .client-image img {
+  height: 100%;
+}
 .about .about-bottom-section .client .client1 {
   background-image: url(../images/about-client-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about .about-bottom-section .client .client2 {
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about .about-bottom-section .client .client-quote {
   position: relative;
-  background-color: green;
   min-height: 50px;
   width: 100%;
   padding-left: 25px;
+  flex-direction: row;
 }
 .about .about-bottom-section .client .client-quote p:last-of-type {
-  color: red;
+  color: black;
+  margin-bottom: 25px;
 }
 .about .about-bottom-section .client .client-quote p:last-of-type:last-child {
   color: gray;
@@ -237,6 +251,7 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
+  color: #79ADDC #79ADDC;
 }
 
 @media only screen and (max-width: 600px) {

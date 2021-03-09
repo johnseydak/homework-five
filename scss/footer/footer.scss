@@ -7,7 +7,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 0px 120px;
-    position: fixed; //needs more stuff tying it to the bottom
+    //position: fixed; //needs more stuff tying it to the bottom
 
     .logo {
         //background-color: red;
@@ -32,8 +32,8 @@ footer {
 @media only screen and (max-width: 1060px) {  //clean up and consolidate this
     
   
-    footer {
-      max-width: 1280px;
+    footer{
+      max-width: 100%;
       height: 100px;
       background-color: #79ADDC;
       background-size: cover;
@@ -42,17 +42,17 @@ footer {
       justify-content: space-between;
       padding: 0px 120px;
     }
-    footer .logo {
+    footer .logo{
       width: 92px;
       height: 42px;
       align-self: center;
     }
-    footer .copyright {
+    footer .copyright{
       font-size: 12px;
       align-self: center;
       color: #fff;
     }
-    footer .socialmedia {
+    footer .socialmedia{
       display: flex;
       justify-content: space-between;
       align-self: center;
