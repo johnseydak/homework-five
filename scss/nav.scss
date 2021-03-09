@@ -1,11 +1,12 @@
 .nav {
     width: 980px;
     height: 60px;
-    border-bottom: $white solid 3px;
+    border-bottom: black solid 3px;
     //background-color: red;
     margin: 20px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
     .logo {
@@ -17,7 +18,7 @@
     .links {
         width: 400px;
         height: 42px;
-        font-family: GillSans;
+        font-family: 'GillSans';
         align-self: center;
         display: flex;
         justify-content: space-between;
@@ -30,10 +31,10 @@
             }
             //margin: auto;
             a {
-                font-family: "GillSans";
+                //font-family: "GillSans";
                 font-size: 15px;
                 text-decoration: none;
-                color: $white;
+                color: black;
                 margin: auto;
                 text-transform: lowercase;
             }
@@ -48,3 +49,50 @@
         width: 80%;
     }
 }
+@media only screen and (max-width: 1060px) {
+    //@media only screen and (max-width: 1060px) { if it doesn't work, try this. This was originally located outside of the brackets at the bottom.
+       // .nav {
+          //width: 80%;
+        //}
+      //}
+  .nav {
+    width: 980px;
+    height: 60px;
+    border-bottom: #fff solid 3px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+  .nav .links {
+    width: 400px;
+    height: 42px;
+    font-family: GillSans;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav .links div.pipe {
+    color: #79ADDC;
+    font-size: 20px;
+  }
+  .nav .links div a {
+    font-family: "GillSans";
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    text-transform: lowercase;
+  }
+}
+
+  //@media only screen and (max-width: 1060px) {
+    //.nav {
+      //width: 80%;
+    //}
+  //}
